@@ -15,7 +15,7 @@ st.set_page_config(
 # -----------------------------
 # 데이터 불러오기
 # -----------------------------
-df_new = pd.read_csv("earthquake.csv")
+df_new = pd.read_csv("eq.csv")
 
 risk_dict = {
     0: "🔴 높음",
